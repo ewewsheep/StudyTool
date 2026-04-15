@@ -4,7 +4,15 @@
         span{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
-        .basecontainergap{
+        .basecontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            flex-direction: column;
+        }
+        .basecontainergapt{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,7 +24,7 @@
     </style>
 </head>
 
-<body class="basecontainergap">
+<body class="basecontainer">
     <div class="basecontainergap">
         <span>codes:</span>
         <input type="text" id="arrayiput">
